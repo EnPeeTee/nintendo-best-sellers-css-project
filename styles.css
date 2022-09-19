@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    color: cornsilk;
+    text-shadow: -0px 0px 7px black;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("/images/nintendoHero2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+    max-height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: solid 2px red;
+}
+
+#hero-bg-img {
+    width: 60vw;
+    max-width: 500px;
+}
+
+#a-nintendo {
+    text-decoration: none;
+    color: white;
+}
+
+#main-title:hover {
+    background-color: maroon;
+}
+
+.red-border {
+    background: crimson;
+    
+    border: solid 7px brown;
+    border-left: solid 7px maroon;
+    border-bottom: solid 7px black;
+    
+    padding: 0.5vw 2vw;
+    margin: 50px 0 0px;
+
+    font-size: 7vmin;
+    font-weight: 800;
+}
+
+.yellow-border {
+    background: yellow;
+    
+    border: solid 10px orange;
+    border-left: solid 10px orangered;
+    border-bottom: solid 10px black;
+
+    padding: 0.5vw 2vw;
+    
+    width: 80%;
+    max-width: 500px;
+    
+    font-size: 7vmin;
+}
+
+.blue-border {
+    background: skyblue;
+    
+    border: solid 10px lightblue;
+    border-left: solid 10px lightseagreen;
+    border-bottom: solid 10px black;
+
+    padding: 0.5vw 2vw;
+    
+    /* width: 80%; */
+    max-width: 500px;
+    
+    font-size: 7vmin;
+}
+
+#full-section {    
+    background: url("/images/nintendoHero1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+ 
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+
+    /* border: solid 2px blue; */
+}
+
+#activities-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: solid 2px blue; */
+}
+
+#activities-section-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.activities-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    box-shadow: -2px 2px 5px black;
+}
+
+.activities-img:hover {
+    height: 105px;
+    width: 105px;
+    opacity: 0.8;
+}
+
+.activities-content {
+    margin: 10px;
+    padding: 30px 2vw 0 ;
+    height: 250px;
+    background: cadetblue;
+        
+    border: solid 10px lightblue;
+    border-right: solid 10px lightseagreen;
+    border-top: solid 10px lightseagreen;
+    
+    /* padding: 0.5vw 2vw; */
+        
+    max-width: 500px;
+}
+
+#footer {
+    background: crimson;
+    
+    border: solid white 5px;
+    border-radius: 20px;
+    width: 50vw;
+
+    padding: 20px 50px;
+    margin: 100px 0 50px;
+
+}
+
+#en-pfp {
+    border-radius: 50%;
+    box-shadow: 0 0 10px black ;
+}
+
+
